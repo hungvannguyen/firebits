@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@import './config.css';
+
+.home {
+  @apply flex flex-col items-center justify-center h-screen bg-lightTone;
+}
+
